@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Segoe UI", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+
+
+/*MAIN HEADER CSS*/
+header{
+    overflow: hidden;
+    background: #23232e;
+    text-align: center;
+}
+.main-logo img{
+    margin: 55px 0 90px 0;
+    height: 95px;
+    width: 95px;
+}
+.main-text h2{
+    font-size: 56px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+.main-text p{
+    margin: 10px 0 125px 0;
+    font-size: 14px;
+    color: #fff;
+}
+.go-next{
+    margin-bottom: 45px;
+}
+.go-next a i{
+    color: #FFF;
+	font-size: 20px;
+	width: 30px;
+	height: 30px;
+    padding: 5px;
+	border: 1px solid #FFF;
+	border-radius: 50%;
+}
+
+
+/*BODY TEXT AREA CSS*/
+.main-texts {
+    background-image: url(img/solid-line.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: #464b4f;
+}
+
+.top-text {
+    margin: 80px 0 0 0;
+    text-align: center;
+}
+.top-text p{
+    font-size: 21px;
+    line-height: 32px;
+    padding: 20px 80px;
+}
+
+.bottom-text {
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+.bottom-text h2 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.text-lists {
+    width: 30.5%;
+    float: left;
+    margin-right: 4%;
+}
+.text-lists:last-child{
+    margin-right: 0;
+}
+.text-lists h4{
+    margin-bottom: 10px;
+}
+.text-lists p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 100px;
+}
+
+
+
+/*WORK SECTION CSS*/
+.work-section {
+    background: #23232e;
+    overflow: hidden;
+    color: #fff;
+}
+.work-section h2{
+    margin: 80px 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.work-menu {
+    text-align: center;
+}
+.work-menu li {
+    list-style: none; 
+    padding: 10px;
+}
+.work-menu li a{
+    margin: 0 20px ;
+    color: #fff;
+    transition: .2s;
+}
+.work-menu li a:hover{
+    border-bottom: 2px solid #7b77c9;
+}
+
+
+.work-folios-up {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.work-folios {
+    margin-top: 40px;
+}
+
+.work-folio {
+    width: 31.33%;
+    float: left;
+    margin-bottom: 40px;
+    margin-right: 3%;
+}
+.work-folio:last-child{
+    margin-right: 0;
+}
+.work-folio img{
+    width: 100%;
+}
+.work-folio h5{
+    margin: 10px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.work-folio p{
+    margin: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: #7b77c9;
+}
+
+.work-folios-down {
+    width: 100%;
+    overflow: hidden;
+}
+
+.work-btn {
+    margin: 20px 0 60px;
+    text-align: center;
+}
+.work-btn a{
+    padding: 10px 35px;
+    background:#7b77c9 ;
+    color: #fff;
+    border-radius: 5px;
+        
+}
+.work-btn a:hover{
+    background: #8985e0;
+}
+
+
+
+
+/*PHOTOGRAPHY SECTION CSS*/
+.photography {
+    background-image: url(img/solid-line.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: #464b4f;
+}
+.photography h2{
+    margin: 65px 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.photography p{
+    font-size: 20px;
+    line-height: 32px;
+    padding: 40px 80px;
+    text-align: center;
+}
+.pg-folios {
+    width: 100%;
+    overflow: hidden;
+}
+.pg-folio-up {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+.pg-folio-down {
+    width: 100%;
+    overflow: hidden;
+}
+.pg-folio {
+    width: 31.33%;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 3%;
+}
+.pg-folio:last-child{
+    margin-right: 0;
+}
+.pg-folio img{
+    width: 100%;
+}
+.pgbg-btn{
+    text-align: center;
+    margin: 50px 0;
+}
+.pgbg-btn a{
+    padding: 10px 35px;
+    background:#7b77c9 ;
+    color: #fff;
+    border-radius: 5px;
+        
+}
+.pgbg-btn a:hover{
+    background: #8985e0;
+}
+
+
+
+
+/*SUBSCRIBE AREA CSS*/
+.sub-section {
+    background: #23232e;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+.sub-logo {
+    margin: 200px 0 40px;
+}
+.sub-logo img{
+    width: 65px;
+    height: 32px;
+}
+.sub-section p{
+    padding: 0 150px 40px;
+}
+
+.sub-form {
+    margin-bottom: 120px;
+}
+.sub-form input[type="email"]{
+    padding: 13px 150px 13px 10px; 
+    color: #c8c8c8;
+    border-radius: 5px;
+    border: none;
+}
+.sub-form input[type="submit"]{
+    padding: 13px 40px; 
+    color: #c8c8c8;
+    border-radius: 5px;
+    border: none;
+    background: #7b77c9;
+    color: #fff;
+    margin-left: 10px;
+}
+.sub-form input[type="submit"]:hover{
+    background: #8782dc;
+}
+
+
+
+
+/*FOOTER AREA CSS*/
+footer{
+    background-image: url(img/solid-line.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: #7c7c7c;
+    text-align: center;
+}
+.footer-logo {
+    margin: 60px 0 10px;
+}
+.footer-logo ul{
+    padding-left: 0;
+}
+.footer-logo li{
+    list-style: none;
+}
+.footer-logo a{
+    font-size: 25px;
+    padding: 0 20px;
+    color: #7c7c7c;
+    transition: .2s;
+}
+.footer-logo li a:first-child i:hover{
+    color: #00aced;
+}
+.footer-logo li a:nth-child(2) i:hover{
+    color: #dd4b39;
+}
+.footer-logo li a:nth-child(3) i:hover{
+    color: #f7f400;
+}
+.footer-logo li a:last-child i:hover{
+    color: #e4405f;
+}
+.footer-inf {
+    margin: 30px 0 80px;
+}
+.footer-inf p{
+    font-size: 14px;
+}
